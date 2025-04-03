@@ -7,4 +7,3 @@ pandas
 numpy
 datetime
 matplotlib
-graphics
