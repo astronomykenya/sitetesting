@@ -1,0 +1,7 @@
+streamlit
+subprocess
+PIL 
+streamlit_image_coordinates
+pyglet
+base64
+st_clickable_images
