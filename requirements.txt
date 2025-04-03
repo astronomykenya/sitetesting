@@ -44,6 +44,7 @@ attrs @ file:///Users/builder/cbouss/perseverance-python-buildout/croot/attrs_16
 Automat @ file:///tmp/build/80754af9/automat_1600298431173/work
 autopep8 @ file:///croot/autopep8_1708962882016/work
 Babel @ file:///Users/builder/cbouss/perseverance-python-buildout/croot/babel_1699247663878/work
+backcall==0.2.0
 bcrypt @ file:///Users/builder/cbouss/perseverance-python-buildout/croot/bcrypt_1699247772835/work
 beautifulsoup4 @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_74rj45rt1p/croot/beautifulsoup4-split_1718029835783/work
 binaryornot @ file:///tmp/build/80754af9/binaryornot_1617751525010/work
@@ -95,6 +96,7 @@ dill @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_774m4
 distributed @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_c2f3kpci15/croot/distributed_1725523023216/work
 distro @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_b5l_bzm_c4/croot/distro_1714488255954/work
 dmglib @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_c274akzxeo/croot/dmglib_1719996269027/work
+docopt==0.6.2
 docstring-to-markdown @ file:///Users/builder/cbouss/perseverance-python-buildout/croot/docstring-to-markdown_1699248259185/work
 docutils @ file:///Users/builder/cbouss/perseverance-python-buildout/croot/docutils_1699240610068/work
 et-xmlfile @ file:///Users/builder/cbouss/perseverance-python-buildout/croot/et_xmlfile_1699253278402/work
@@ -133,7 +135,7 @@ iniconfig @ file:///home/linux1/recipes/ci/iniconfig_1610983019677/work
 intake @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_a67pfhqaxk/croot/intake_1726109586816/work
 intervaltree @ file:///Users/ktietz/demo/mc3/conda-bld/intervaltree_1630511889664/work
 ipykernel @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_02wd6dgggf/croot/ipykernel_1705933834674/work
-ipython @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_87xjefcpgk/croot/ipython_1726064241225/work
+ipython==8.12.3
 ipython-genutils @ file:///tmp/build/80754af9/ipython_genutils_1606773439826/work
 ipywidgets @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_96e0a42kgq/croot/ipywidgets_1710961507355/work
 isort @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_fcfm_7m3va/croot/isort_1718290126180/work
@@ -225,6 +227,7 @@ patsy @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_bf8d
 pexpect @ file:///tmp/build/80754af9/pexpect_1605563209008/work
 pickleshare @ file:///tmp/build/80754af9/pickleshare_1606932040724/work
 pillow @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_b6jn17w9_s/croot/pillow_1721059443777/work
+pipreqs==0.5.0
 pkce @ file:///Users/builder/cbouss/perseverance-python-buildout/croot/pkce_1699246575786/work
 pkginfo @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_4696by57ez/croot/pkginfo_1715695991677/work
 platformdirs @ file:///Users/builder/cbouss/perseverance-python-buildout/croot/platformdirs_1701805067573/work
@@ -399,8 +402,11 @@ xarray @ file:///Users/builder/cbouss/perseverance-python-buildout/croot/xarray_
 xlwings @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_838do436jw/croot/xlwings_1725400106901/work
 xyzservices @ file:///Users/builder/cbouss/perseverance-python-buildout/croot/xyzservices_1699251070342/work
 yapf @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_eaaxlq87mt/croot/yapf_1708964321438/work
+yarg==0.1.9
 yarl @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_e1e9t55odx/croot/yarl_1725976505882/work
 zict @ file:///Users/builder/cbouss/perseverance-python-buildout/croot/zict_1699263607025/work
 zipp @ file:///Users/builder/cbouss/perseverance-python-buildout/croot/zipp_1707361439201/work
 zope.interface @ file:///Users/builder/cbouss/perseverance-python-buildout/croot/zope.interface_1699251096669/work
 zstandard @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_2bqnms2ngq/croot/zstandard_1728569218033/work
+
+
