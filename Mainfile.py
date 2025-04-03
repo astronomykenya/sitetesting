@@ -52,7 +52,7 @@ with tab1:
 with tab2:
     st.write("The weather station at Mt.Nyiro was installed as part of a field trip by a team of students, researchers, technical staff, and community liaisons.") 
 
-    nyiromap=IMG.open("nyiromap.png")
+    nyiromap=IMG.open("nyiromap.jpg")
     st.image(nyiromap)
     st.write("Mt. Nyiro (Ol dono Ng'iro) lies towards the south-east of Lake Turkana in northern Kenya. It is located in Samburu county and is in the territory of the samburu community. The samburu are traditionally pastorolists and this continues to be the major economic activity in the mountain and surrounding regions. Camels, goats and cows graze up to the very top of the mountain. Water scarcity is a big problem facing the community, with only a small stream originating in the mountain top. The area is semi-arid, though the mountain hosts diverse vegetation and is up to **10** degrees cooler at the top. The highest peak at Mt Nyiro has an altitude of 2848m." )
     st.subheader("Community engagement")
