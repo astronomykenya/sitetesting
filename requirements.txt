@@ -1,5 +1,4 @@
 streamlit
-subprocess
 PIL 
 streamlit_image_coordinates
 pyglet
