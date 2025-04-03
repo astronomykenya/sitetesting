@@ -7,7 +7,6 @@ pandas
 numpy
 datetime
 matplotlib
-glob
 math
 time
 graphics
