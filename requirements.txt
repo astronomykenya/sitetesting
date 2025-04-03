@@ -1,5 +1,5 @@
 streamlit
-PIL 
+Image
 streamlit_image_coordinates
 pyglet
 base64
