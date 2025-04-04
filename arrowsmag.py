@@ -12,6 +12,7 @@ import csv
 import glob 
 import math
 import time 
+import os
 
 filepath = '/Users/lekshmigopal/CR350Series_Table1.dat'
 
@@ -606,6 +607,9 @@ for ap in masterdfmodel.iloc[:,8]:
         
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~graphics window~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+os.environ["DISPLAY"] = "https://connect.posit.cloud":0.0
+
+
 def main():
 
     top_left_x = 100
