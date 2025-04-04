@@ -88,30 +88,30 @@ with tab4:
 
     with tab42:
         urlyos = "https://github.com/Lekshmi-TBI/wxstation/blob/a5fadb3f2ad9c082b63c3a475d8b158fc8d80739/Yosry.pdf"
-        st.markdown(f"[Yossry - DIMM]({urlyos})")
+        st.markdown(f"[Click here for Yossry - DIMM]({urlyos})")
         urlyos = "https://github.com/Lekshmi-TBI/wxstation/blob/fe7cfba9e423e0f09b9cd47aa6db194887b3b981/Yosry%20Azzam_Site_Selection_ELOT.pdf"
-        st.markdown(f"[Yossry - Planning and Site Selection]({urlyos})")
+        st.markdown(f"[Click here for Yossry - Planning and Site Selection]({urlyos})")
     with tab43:
         urlyos = "https://github.com/Lekshmi-TBI/wxstation/blob/fe7cfba9e423e0f09b9cd47aa6db194887b3b981/WarrenSkidmore_EstabSciTechFutureProjV4pdf.pdf"
-        st.markdown(f"[Warren]({urlyos})")
+        st.markdown(f"[Click here for Warren's talk on governance and project scope for observatory projects]({urlyos})")
     with tab44:
         st.write("Sabyasachi's talk will be up soon.")
 
     with tab45:
         urlyos = "https://github.com/Lekshmi-TBI/wxstation/blob/fe7cfba9e423e0f09b9cd47aa6db194887b3b981/SiteSelection101.pdf"
-        st.markdown(f"[Sebastian]({urlyos})")
+        st.markdown(f"[Click here for Sebastian's talk on site selection]({urlyos})")
     with tab46:
         st.write("Eddy's talk will be up soon")
 
     with tab47:
         urlyos = "https://github.com/Lekshmi-TBI/wxstation/blob/fe7cfba9e423e0f09b9cd47aa6db194887b3b981/Dark%20Skies%20in%20Kenya%20%E2%80%94%20Samyukta%20Manikumar.pdf"
-        st.markdown(f"[Samyukta]({urlyos})")
+        st.markdown(f"[Click here for Samyukta's talk on Dark Night Skies]({urlyos})")
     with tab48:
         urlyos = "https://github.com/Lekshmi-TBI/wxstation/blob/fe7cfba9e423e0f09b9cd47aa6db194887b3b981/Ramsey%20presentation%20at%20astronomy%20site%20taste%20workshop.pdf"
-        st.markdown(f"[Ramsey]({urlyos})")
+        st.markdown(f"[Click here for Ramsey's talk on community engagement at Ileret, Turkana]({urlyos})")
     with tab49:
         urlyos = "https://github.com/Lekshmi-TBI/wxstation/blob/ed49b484846d7bccaa89286f86517e162f648f8e/DSIT%20Workshop%20_compressed.pdf"
-        st.markdown(f"[Robert]({urlyos})")
+        st.markdown(f"[Click here for Robert's talk on the expeditions and the CampbellSci weather station systems]({urlyos})")
 
         
 
