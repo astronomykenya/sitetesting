@@ -84,6 +84,7 @@ with tab4:
     st.subheader("Slides from talks")
     tab41,tab42,tab43,tab44,tab45,tab46,tab47,tab48,tab49 =st.tabs(["Mirjana Povic","Yossry Azzam","Warren Skidmore","Sabyasachi Chattopadhyay","Sebastian Els","Eddy Graham","Samyukta Manikumar","Ramsey Korie","Robert Ngechu"])
     with tab41:
+        st.write("Mirjana's talks will be up soon.")
 
     with tab42:
         urlyos = "https://github.com/Lekshmi-TBI/wxstation/blob/a5fadb3f2ad9c082b63c3a475d8b158fc8d80739/Yosry.pdf"
@@ -94,11 +95,13 @@ with tab4:
         urlyos = "https://github.com/Lekshmi-TBI/wxstation/blob/fe7cfba9e423e0f09b9cd47aa6db194887b3b981/WarrenSkidmore_EstabSciTechFutureProjV4pdf.pdf"
         st.markdown(f"[Warren]({urlyos})")
     with tab44:
+        st.write("Sabyasachi's talk will be up soon.")
 
     with tab45:
         urlyos = "https://github.com/Lekshmi-TBI/wxstation/blob/fe7cfba9e423e0f09b9cd47aa6db194887b3b981/SiteSelection101.pdf"
         st.markdown(f"[Sebastian]({urlyos})")
     with tab46:
+        st.write("Eddy's talk will be up soon")
 
     with tab47:
         urlyos = "https://github.com/Lekshmi-TBI/wxstation/blob/fe7cfba9e423e0f09b9cd47aa6db194887b3b981/Dark%20Skies%20in%20Kenya%20%E2%80%94%20Samyukta%20Manikumar.pdf"
