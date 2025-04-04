@@ -86,8 +86,8 @@ with tab4:
     with tab41:
         pdf_file = st.file_uploader('Yosri.pdf', type="pdf")
         if pdf_file:
-        binary_data = pdf_file.getvalue()
-        pdf_viewer(input=binary_data,
+            binary_data = pdf_file.getvalue()
+            pdf_viewer(input=binary_data,
                    width=700)
 
       
