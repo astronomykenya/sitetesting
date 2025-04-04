@@ -84,7 +84,7 @@ with tab4:
     st.subheader("Slides from talks")
     tab41,tab42,tab43,tab44,tab45,tab46,tab47,tab48 =st.tabs(["Mirjana Povic","Warren Skidmore","Sabyasachi Chattopadhyay","Sebastian Els","Yosri Assam","Eddy Graham","Samyukta Manikumar","Robert Ngechu and Lekshmi Rajagopal"])
     with tab41:
-        urlyos = <https://github.com/Lekshmi-TBI/wxstation/blob/a5fadb3f2ad9c082b63c3a475d8b158fc8d80739/Yosry.pdf>
+        urlyos = https://github.com/Lekshmi-TBI/wxstation/blob/a5fadb3f2ad9c082b63c3a475d8b158fc8d80739/Yosry.pdf
         st.markdown(f"[source1]({urlyos})")
 
         
