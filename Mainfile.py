@@ -82,10 +82,33 @@ with tab3:
     
 with tab4:
     st.subheader("Slides from talks")
-    tab41,tab42,tab43,tab44,tab45,tab46,tab47,tab48 =st.tabs(["Mirjana Povic","Warren Skidmore","Sabyasachi Chattopadhyay","Sebastian Els","Yosri Assam","Eddy Graham","Samyukta Manikumar","Robert Ngechu and Lekshmi Rajagopal"])
+    tab41,tab42,tab43,tab44,tab45,tab46,tab47,tab48,tab49 =st.tabs(["Mirjana Povic","Yossry Azzam","Warren Skidmore","Sabyasachi Chattopadhyay","Sebastian Els","Eddy Graham","Samyukta Manikumar","Ramsey Korie","Robert Ngechu"])
     with tab41:
+
+    with tab42:
         urlyos = "https://github.com/Lekshmi-TBI/wxstation/blob/a5fadb3f2ad9c082b63c3a475d8b158fc8d80739/Yosry.pdf"
-        st.markdown(f"[source1]({urlyos})")
+        st.markdown(f"[Yossry - DIMM]({urlyos})")
+        urlyos = "https://github.com/Lekshmi-TBI/wxstation/blob/fe7cfba9e423e0f09b9cd47aa6db194887b3b981/Yosry%20Azzam_Site_Selection_ELOT.pdf"
+        st.markdown(f"[Yossry - Planning and Site Selection]({urlyos})")
+    with tab43:
+        urlyos = "https://github.com/Lekshmi-TBI/wxstation/blob/fe7cfba9e423e0f09b9cd47aa6db194887b3b981/WarrenSkidmore_EstabSciTechFutureProjV4pdf.pdf"
+        st.markdown(f"[Warren]({urlyos})")
+    with tab44:
+
+    with tab45:
+        urlyos = "https://github.com/Lekshmi-TBI/wxstation/blob/fe7cfba9e423e0f09b9cd47aa6db194887b3b981/SiteSelection101.pdf"
+        st.markdown(f"[Sebastian]({urlyos})")
+    with tab46:
+
+    with tab47:
+        urlyos = "https://github.com/Lekshmi-TBI/wxstation/blob/fe7cfba9e423e0f09b9cd47aa6db194887b3b981/Dark%20Skies%20in%20Kenya%20%E2%80%94%20Samyukta%20Manikumar.pdf"
+        st.markdown(f"[Samyukta]({urlyos})")
+    with tab48:
+        urlyos = "https://github.com/Lekshmi-TBI/wxstation/blob/fe7cfba9e423e0f09b9cd47aa6db194887b3b981/Ramsey%20presentation%20at%20astronomy%20site%20taste%20workshop.pdf"
+        st.markdown(f"[Ramsey]({urlyos})")
+    with tab49:
+        urlyos = "https://github.com/Lekshmi-TBI/wxstation/blob/ed49b484846d7bccaa89286f86517e162f648f8e/DSIT%20Workshop%20_compressed.pdf"
+        st.markdown(f"[Robert]({urlyos})")
 
         
 
