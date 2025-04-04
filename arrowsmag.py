@@ -607,7 +607,7 @@ for ap in masterdfmodel.iloc[:,8]:
         
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~graphics window~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-os.environ["DISPLAY"] = "https://connect.posit.cloud":0.0
+os.environ["DISPLAY"] = "https://connect.posit.cloud"
 
 
 def main():
