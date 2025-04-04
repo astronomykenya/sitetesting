@@ -82,7 +82,7 @@ with tab3:
     
 with tab4:
     st.subheader("Slides from talks")
-    tab41,tab42,tab43,tab44,tab45,tab46,tab47,tab48 =st.tabs("Mirjana Povic","Warren Skidmore","Sabyasachi Chattopadhyay","Sebastian Els","Yosri Assam","Eddy Graham","Samyukta Manikumar","Robert Ngechu and Lekshmi Rajagopal")
+    tab41,tab42,tab43,tab44,tab45,tab46,tab47,tab48 =st.tabs(["Mirjana Povic","Warren Skidmore","Sabyasachi Chattopadhyay","Sebastian Els","Yosri Assam","Eddy Graham","Samyukta Manikumar","Robert Ngechu and Lekshmi Rajagopal"])
     with tab41:
         pdf_file = st.file_uploader('Yosri.pdf', type="pdf")
         if pdf_file:
