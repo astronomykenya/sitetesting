@@ -607,14 +607,13 @@ for ap in masterdfmodel.iloc[:,8]:
         
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~graphics window~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-import socket
-s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-s.connect(("8.8.8.8", 80))
-hostname = s.getsockname()[0]
-s.close()
+#import socket
+#s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+#s.connect(("8.8.8.8", 80))
+#hostname = s.getsockname()[0]
+#s.close()
 
-DISPLAY= hostname:0.0 
-export DISPLAY 
+
 
 
 def main():
