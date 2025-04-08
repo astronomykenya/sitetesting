@@ -8,4 +8,4 @@ numpy
 datetime
 matplotlib
 graphics.py
-tkinter
+
