@@ -101,7 +101,10 @@ with tab4:
         urlyos = "https://github.com/Lekshmi-TBI/wxstation/blob/fe7cfba9e423e0f09b9cd47aa6db194887b3b981/SiteSelection101.pdf"
         st.markdown(f"[Click here for Sebastian's talk on site selection]({urlyos})")
     with tab46:
-        st.write("Eddy's talk will be up soon")
+        urlyos = "https://github.com/Lekshmi-TBI/wxstation/blob/7d880b96684c5d40b2ae8f12285864b41ce86427/Astronomy%20and%20the%20atmosphere%20-%20Eddy_Final.pdf"
+        st.markdown(f"[Click here for Eddy's talk on the influence of meteorology on Astronomy]({urlyos})")
+        urlyos = "https://github.com/Lekshmi-TBI/wxstation/blob/7d880b96684c5d40b2ae8f12285864b41ce86427/Report%20on%20WRF%20met%20model%20simulations%20-%20Eddy_Final.pdf"
+        st.markdown(f"[Click here for Eddy's talk on the WRF Met model]({urlyos})")
 
     with tab47:
         urlyos = "https://github.com/Lekshmi-TBI/wxstation/blob/fe7cfba9e423e0f09b9cd47aa6db194887b3b981/Dark%20Skies%20in%20Kenya%20%E2%80%94%20Samyukta%20Manikumar.pdf"
