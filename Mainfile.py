@@ -174,7 +174,7 @@ with tab5:
         with st.spinner("Please wait"):
             #st.write("Mt.Mara data vis will appear here")
             mtkenyaupdate=IMG.open("MtKenyalatest.png")
-            st.image(mtkenyaupdated)
+            st.image(mtkenyaupdate)
 
             #def start_capture():
              #   subprocess.run(["python", "arrowsmag.py"])
