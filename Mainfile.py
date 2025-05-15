@@ -149,7 +149,10 @@ with tab5:
 
     if clicked ==0:
         with st.spinner("Please wait"):
-            st.write("Mt Nyiro Data vis will appear here")
+            nyiroupdated=IMG.open("MtNyirolatest.png")
+            st.image(nyiroupdated)
+
+    # Now do something with the image! For example, let's display it:
 
             # def start_capture():
             #     subprocess.run(["python", "arrowsmag.py"])
@@ -158,6 +161,8 @@ with tab5:
     if clicked ==1:
         with st.spinner("Please wait"):
             st.write("Mt.Mara data vis will appear here")
+            #mtkenyaupdate=IMG.open("MtKenyalatest.png")
+            #st.image(mtkenyaupdated)
 
             # def start_capture():
             #     subprocess.run(["python", "arrowsmag.py"])
@@ -167,8 +172,11 @@ with tab5:
 
     if clicked ==2:
         with st.spinner("Please wait"):
+            #st.write("Mt.Mara data vis will appear here")
+            mtkenyaupdate=IMG.open("MtKenyalatest.png")
+            st.image(mtkenyaupdated)
 
-            def start_capture():
-                subprocess.run(["python", "arrowsmag.py"])
+            #def start_capture():
+             #   subprocess.run(["python", "arrowsmag.py"])
                 
-            start_capture()
+            #start_capture()
