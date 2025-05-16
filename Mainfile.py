@@ -82,15 +82,17 @@ with tab3:
     
 with tab4:
     st.subheader("Slides from talks")
-    tab41,tab42,tab43,tab44,tab45,tab46,tab47,tab48,tab49 =st.tabs(["Mirjana Povic","Yossry Azzam","Warren Skidmore","Sabyasachi Chattopadhyay","Sebastian Els","Eddy Graham","Samyukta Manikumar","Ramsey Korie","Robert Ngechu"])
+    tab41,tab42,tab43,tab44,tab45,tab46,tab47,tab48,tab49 =st.tabs(["Mirjana Povic","Yossry Azzam","Warren Skidmore","Sabyasachi Chattopadhyay","Sebastian Els","Eddy Graham","Samyukta Manikumar","Ramsey Korie","Robert Ngechu", "David Buckley"])
     with tab41:
-        st.write("Mirjana's talks will be up soon.")
-
+        urlyos = "https://github.com/astronomykenya/sitetesting/blob/fe08261b9e7941e801374e6ced2ee55ef415ede9/P1_MirjanaPovic_AstronomyInAfrica_v1.pdf"
+        st.markdown(f"[Click here for Mirjana's talk on Astronomy in Africa]({urlyos})")
+        urlyos = "https://github.com/astronomykenya/sitetesting/blob/fe08261b9e7941e801374e6ced2ee55ef415ede9/P2_MirjanaPovic_CommunityEngagement_v1_compressed.pdf"
+        st.markdown(f"[Click here for Mirjana's talk on Astronomy development and community engagement]({urlyos})")
     with tab42:
         urlyos = "https://github.com/Lekshmi-TBI/wxstation/blob/a5fadb3f2ad9c082b63c3a475d8b158fc8d80739/Yosry.pdf"
-        st.markdown(f"[Click here for Yossry - DIMM]({urlyos})")
+        st.markdown(f"[Click here for Yossry on DIMM]({urlyos})")
         urlyos = "https://github.com/Lekshmi-TBI/wxstation/blob/fe7cfba9e423e0f09b9cd47aa6db194887b3b981/Yosry%20Azzam_Site_Selection_ELOT.pdf"
-        st.markdown(f"[Click here for Yossry - Planning and Site Selection]({urlyos})")
+        st.markdown(f"[Click here for Yossry on Planning and Site Selection]({urlyos})")
     with tab43:
         urlyos = "https://github.com/Lekshmi-TBI/wxstation/blob/fe7cfba9e423e0f09b9cd47aa6db194887b3b981/WarrenSkidmore_EstabSciTechFutureProjV4pdf.pdf"
         st.markdown(f"[Click here for Warren's talk on governance and project scope for observatory projects]({urlyos})")
@@ -115,7 +117,9 @@ with tab4:
     with tab49:
         urlyos = "https://github.com/Lekshmi-TBI/wxstation/blob/ed49b484846d7bccaa89286f86517e162f648f8e/DSIT%20Workshop%20_compressed.pdf"
         st.markdown(f"[Click here for Robert's talk on the expeditions and the CampbellSci weather station systems]({urlyos})")
-
+    with tab50:
+        urlyos = "https://github.com/astronomykenya/sitetesting/blob/fe08261b9e7941e801374e6ced2ee55ef415ede9/African_Telescopes_Nairobi_2025.pdf"
+        st.markdown(f"[Click here for David's talk on African telescopes]({urylos})")
         
 
 with tab5:
