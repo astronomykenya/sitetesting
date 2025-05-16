@@ -119,7 +119,7 @@ with tab4:
         st.markdown(f"[Click here for Robert's talk on the expeditions and the CampbellSci weather station systems]({urlyos})")
     with tab50:
         urlyos = "https://github.com/astronomykenya/sitetesting/blob/fe08261b9e7941e801374e6ced2ee55ef415ede9/African_Telescopes_Nairobi_2025.pdf"
-        st.markdown(f"[Click here for David's talk on African telescopes]({urylos})")
+        st.markdown(f"[Click here for David's talk on African telescopes]({urlyos})")
         
 
 with tab5:
