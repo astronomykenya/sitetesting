@@ -82,7 +82,7 @@ with tab3:
     
 with tab4:
     st.subheader("Slides from talks")
-    tab41,tab42,tab43,tab44,tab45,tab46,tab47,tab48,tab49 =st.tabs(["Mirjana Povic","Yossry Azzam","Warren Skidmore","Sabyasachi Chattopadhyay","Sebastian Els","Eddy Graham","Samyukta Manikumar","Ramsey Korie","Robert Ngechu", "David Buckley"])
+    tab41,tab42,tab43,tab44,tab45,tab46,tab47,tab48,tab49,tab50 =st.tabs(["Mirjana Povic","Yossry Azzam","Warren Skidmore","Sabyasachi Chattopadhyay","Sebastian Els","Eddy Graham","Samyukta Manikumar","Ramsey Korie","Robert Ngechu", "David Buckley"])
     with tab41:
         urlyos = "https://github.com/astronomykenya/sitetesting/blob/fe08261b9e7941e801374e6ced2ee55ef415ede9/P1_MirjanaPovic_AstronomyInAfrica_v1.pdf"
         st.markdown(f"[Click here for Mirjana's talk on Astronomy in Africa]({urlyos})")
