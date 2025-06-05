@@ -82,6 +82,9 @@ with tab3:
     
 with tab4:
     st.subheader("Optical telescope site testing workshop, March 19th-22nd, Boma Inn")
+    bomaconf=IMG.open("Bomaconf.jpeg")
+    st.image(conf)
+    st.write("The DSIT workshop brought together 30 Kenyan students from the fields of Astronomy, Physics, Engineering, and Meteorology to participate in a series of lectures and activities. The 3 day workshop was hosted at the Boma hotel in Nairobi and students were introduced to the techniques and considerations needed when choosing a site and installing an optical telescope.")
     st.subheader("Slides from talks")
     tab41,tab42,tab43,tab44,tab45,tab46,tab47,tab48,tab49,tab50 =st.tabs(["Mirjana Povic","Yossry Azzam","Warren Skidmore","Sabyasachi Chattopadhyay","Sebastian Els","Eddy Graham","Samyukta Manikumar","Ramsey Korie","Robert Ngechu", "David Buckley"])
     with tab41:
