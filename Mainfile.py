@@ -75,9 +75,9 @@ with tab2:
         nyiro1=IMG.open("nyiro3.jpg")
         st.image(nyiro1)
         st.caption("AirTurkana flight arriving with the team at Sedar airstrip,Samburu.")
-    with tab24:
-        nyiro1=IMG.open("nyiro4.jpg")
-        st.caption("Meeting with community elders")
+  #  with tab24:
+      #  nyiro1=IMG.open("nyiro4.jpg")
+       # st.caption("Meeting with community elders")
     with tab25:
         nyiro1=IMG.open("nyiro16.jpg")
         st.caption("Loongerin natives with the partially set-up weather station")
