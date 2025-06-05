@@ -83,11 +83,11 @@ with tab2:
         nyiro1=IMG.open("nyiro16.jpg")
         st.image(nyiro1)
         st.caption("Loongerin natives with the partially set-up weather station")
-    with tab25:
+    with tab26:
         nyiro1=IMG.open("nyiro19.jpeg")
         st.image(nyiro1)
         st.caption("Shirley, Harold, Dorcus and Isaac setting up the data logger on the summit")
-    with tab26:
+    with tab27:
         nyiro1=IMG.open("nyiro24.jpeg")
         st.image(nyiro1)
         st.caption("Team completing installation at summit")
