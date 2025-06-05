@@ -152,7 +152,7 @@ with tab5:
     st.write('5. Air Pressure (Pa)')
     st.write('6. Wind Speed (Knots)')
     st.write('7. Wind direction')
-    st.write('Data from previous midnight to current time are taken from the weather station and predictive data is shown using the WRF met model forecast for an additional 24 hours ')
+    st.write('Data from previous midnight to current time are taken from the weather station and predictive data is shown using the WRF met model forecast for the remainder of the day. ')
     
     st.subheader("Geographical Information System (GIS) Toolkit: Viewing the Data")
     st.write("Data from each station is available to view. Click on the relevant station to retrieve data (can take up to a minute to load). The most recent chart will be displayed below the map")
