@@ -60,7 +60,7 @@ with tab2:
     st.write("Upon arrival, the team joined a community meeting with the elders in which we described our goals and intentions, and asked for permission to climb the mountain and to leave our instrument at the peak. The elders - through their chief- set out their expectations of us, and shared their blessings. ")
         # tab21,tab22,tab23,tab24,tab25,tab26,tab27,tab28,tab29,tab210,tab211,tab212,tab213,tab214,tab215,tab216,tab217,tab218,tab219,tab220,tab221,tab222,tab223,tab224,tab225,tab226,tab227= st.tabs(["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27"])
         #tab21,tab22,tab23,tab24,tab25,tab26,tab27,tab28 = st.tabs(["1","2","3","4","5","6","7","8"])
-    tab21,tab22,tab23= st.tabs(["1","2","3"])
+    tab21,tab22,tab23,tab24,tab25,tab26,tab27= st.tabs(["1","2","3","4","5","6","7"])
     st.subheader("Trek and installation")
     st.write(" The climb took between 7-11 hours, with equipment going up from 2 days before the day of the main hike. Almost 4 trips were made by porters to get all equipment up to the peak, including solar panels, the station's mast, and food and tents for the team. Camp was set up for 3 nights and installation was done within 2 days. Students took measurements of weather data on hand held devices as a test of current conditions. Once the mast was secured and the data logger attached with sensors, the solar panels were set up. This completed the installation and the team descended the following day.")
     with tab21:
@@ -75,9 +75,9 @@ with tab2:
         nyiro1=IMG.open("nyiro3.jpg")
         st.image(nyiro1)
         st.caption("AirTurkana flight arriving with the team at Sedar airstrip,Samburu.")
-  #  with tab24:
-      #  nyiro1=IMG.open("nyiro4.jpg")
-       # st.caption("Meeting with community elders")
+    with tab24:
+        nyiro1=IMG.open("nyiro4.jpg")
+        st.caption("Meeting with community elders")
     with tab25:
         nyiro1=IMG.open("nyiro16.jpg")
         st.caption("Loongerin natives with the partially set-up weather station")
