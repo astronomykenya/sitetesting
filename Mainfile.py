@@ -76,16 +76,16 @@ with tab2:
         st.image(nyiro1)
         st.caption("AirTurkana flight arriving with the team at Sedar airstrip,Samburu.")
     with tab24:
-        nyiro1=IMG.open("nyiro4.jpg")
+        nyiro1=IMG.open("nyiro4.jpeg")
         st.caption("Meeting with community elders")
     with tab25:
         nyiro1=IMG.open("nyiro16.jpg")
         st.caption("Loongerin natives with the partially set-up weather station")
     with tab25:
-        nyiro1=IMG.open("nyiro19.jpg")
+        nyiro1=IMG.open("nyiro19.jpeg")
         st.caption("Shirley, Harold, Dorcus and Isaac setting up the data logger on the summit")
     with tab26:
-        nyiro1=IMG.open("nyiro24.jpg")
+        nyiro1=IMG.open("nyiro24.jpeg")
         st.caption("Team completing installation at summit")
 with tab3:
     st.subheader("WRF Model")     
