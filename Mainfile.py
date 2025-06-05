@@ -75,7 +75,18 @@ with tab2:
         nyiro1=IMG.open("nyiro3.jpg")
         st.image(nyiro1)
         st.caption("AirTurkana flight arriving with the team at Sedar airstrip,Samburu.")
-        
+    with tab24:
+        nyiro1=IMG.open("nyiro4.jpg")
+        st.caption("Meeting with community elders")
+    with tab25:
+        nyiro1=IMG.open("nyiro16.jpg")
+        st.caption("Loongerin natives with the partially set-up weather station")
+    with tab25:
+        nyiro1=IMG.open("nyiro19.jpg")
+        st.caption("Shirley, Harold, Dorcus and Isaac setting up the data logger on the summit")
+    with tab26:
+        nyiro1=IMG.open("nyiro24.jpg")
+        st.caption("Team completing installation at summit")
 with tab3:
     st.subheader("WRF Model")     
     st.write("The Weather Research and Forecast (WRF) model is an advanced mesoscale atmospheric model that can be run in 'nested' mode at very high resolution for limited areas of Earth. In this instance, we are using it to produce real-time weather forecasts, relevant for astronomers, nested at resolutions of 25km (whole of Kenya), 5km (county scale) and 1km (individual mountain peaks e.g. Ol Donyo Nyiro, Ol Donyo Mara, Mt Kenya) in order to elucidate atmospheric conditions forecast over the forthcoming 24-48hrs.")
