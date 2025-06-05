@@ -81,7 +81,7 @@ with tab3:
     st.write("The Weather Research and Forecast (WRF) model is an advanced mesoscale atmospheric model that can be run in 'nested' mode at very high resolution for limited areas of Earth. In this instance, we are using it to produce real-time weather forecasts, relevant for astronomers, nested at resolutions of 25km (whole of Kenya), 5km (county scale) and 1km (individual mountain peaks e.g. Ol Donyo Nyiro, Ol Donyo Mara, Mt Kenya) in order to elucidate atmospheric conditions forecast over the forthcoming 24-48hrs.")
     
 with tab4:
-    st.subheader("Optical telescope site testing workshop, March 19th-22nd, Boma Inn)
+    st.subheader("Optical telescope site testing workshop, March 19th-22nd, Boma Inn")
     st.subheader("Slides from talks")
     tab41,tab42,tab43,tab44,tab45,tab46,tab47,tab48,tab49,tab50 =st.tabs(["Mirjana Povic","Yossry Azzam","Warren Skidmore","Sabyasachi Chattopadhyay","Sebastian Els","Eddy Graham","Samyukta Manikumar","Ramsey Korie","Robert Ngechu", "David Buckley"])
     with tab41:
